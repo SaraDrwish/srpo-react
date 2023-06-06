@@ -1,0 +1,47 @@
+
+:root{
+  --main-color-og: rgb(249, 122, 24) ;
+  --sec-color-drb:#0d1619 ;
+  --thir-color-pk:rgb(255, 212, 233);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  background-color:var(--thir-color-pk);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 04s linear;
+    -webkit-animation: App-logo-spin infinite 04s linear;
+}
+}
+
+.App-header {
+  background-color: var(--sec-color-drb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: var(--main-color-og);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+}
