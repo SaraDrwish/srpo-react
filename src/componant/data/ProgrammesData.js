@@ -59,7 +59,7 @@ export const ProgrammesData = [
     ),
     heading: "Make Up Training",
     details:
-      "In this program, you are trained to improve your strength of beauty.",
+      "In this program, you are trained to improve your strength of beauty. ",
     },
   
   {

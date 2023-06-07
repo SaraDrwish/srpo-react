@@ -82,7 +82,7 @@ const Hero = () => {
 
         
       <div className="imghero">
-        <img src={heroimg} alt="heroimg"  className='heroimg'/>
+        {/* <img src={heroimg} alt="heroimg"  className='heroimg'/> */}
       </div>
 
       </div>

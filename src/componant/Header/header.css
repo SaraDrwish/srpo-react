@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 0.4rem;
+    padding: 0.4rem 2rem;
     margin: 0 0 0.8rem 0;
     background-color: var(--sec2nd-main-color-drb-light);
     border-radius: 2rem;

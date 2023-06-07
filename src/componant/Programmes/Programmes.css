@@ -36,6 +36,7 @@
 .Programmes .prog-catg .catago{
     display: flex;
     justify-content: center;
+    width: 22%;
     flex-direction: column;
     background-color: var(--f4-color-lo);
     color: var(--s7-color-pp);
