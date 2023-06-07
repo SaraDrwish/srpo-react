@@ -129,3 +129,11 @@ font-family: Arial, Helvetica, sans-serif;
   filter: drop-shadow(50%);
   -webkit-filter: drop-shadow(50%);
 }
+
+::-moz-selection {
+  background: rgba(255, 208, 172, 0.45) ;
+}
+::selection {
+  /* color: var(--sec2nd-main-color-drb);   */
+  background: rgba(255, 208, 172, 0.45);
+}

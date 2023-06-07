@@ -225,7 +225,7 @@ font-weight: bold;
 .right-h>span::after{
     content: "";
     position: absolute;
-    top: 22rem;
+    top: 26rem;
     right: 5rem;
     width: 3rem;
     height:3rem;
@@ -235,16 +235,16 @@ font-weight: bold;
     -ms-border-radius: 4rem;
     -o-border-radius: 4rem;
     /* background-color: var(--f5-color-lb); */
-    background: linear-gradient(rgb(255, 212, 233), #e2eff39c , rgb(255, 212, 233) , #e2eff39c );
+    background: linear-gradient( 77deg , rgb(255, 212, 233),var(--s7-color-pp), #e2eff39c ,var(--s7-color-pp) , #e2eff39c );
         /* background: linear-gradient(#b7d8e3, rgb(78, 37, 56) ); */
 }
 .right-h>span:hover::after{
-    background: linear-gradient( #e2eff39c, rgb(255, 212, 233), #e2eff39c , rgb(255, 212, 233));
+    background: linear-gradient( #e2eff39c, var(--s7-color-pp), #e2eff39c ,var(--s7-color-pp) , rgb(255, 212, 233));
  }
 .right-h>span::before {
         content: "";
         position: absolute;
-        top: 14rem;
+        top: 16rem;
         right: -4rem;
         width: 4.5rem;
         height: 4.5rem;
@@ -258,12 +258,13 @@ font-weight: bold;
         /* cursor: pointer; */
         /* transition: all 0.4s ease; */
         /* background: linear-gradient(160deg , #b7d8e3, rgb(78, 37, 56) ,#b7d8e3 , rgb(78, 37, 56) ,#b7d8e3 ); */
-        background: linear-gradient( 160deg , #b7d8e3,var(--s7-color-pp),#b7d8e3 ,var(--s7-color-pp) ,#b7d8e3 );
+        /* background: linear-gradient( 160deg , #b7d8e3,var(--s7-color-pp),#b7d8e3 , var(--s7-color-pp),#b7d8e3 ); */
+       background: linear-gradient(180deg, rgb(255, 212, 233), #b7d8e3, rgb(255, 212, 233), #b7d8e3, rgb(255, 212, 233));
        
 }
 .right-h > span:hover::before{
     /* background: linear-gradient(320deg ,rgb(78, 37, 56), #b7d8e3, rgb(78, 37, 56), #b7d8e3 , rgb(78, 37, 56) ); */
-    background: linear-gradient(320deg , var(--s7-color-pp) , #b7d8e3, var(--s7-color-pp), #b7d8e3 , var(--s7-color-pp));
+    background: linear-gradient(320deg , rgb(255, 212, 233) , #b7d8e3,rgb(255, 212, 233) , #b7d8e3 ,rgb(255, 212, 233) );
         /* transition: all 0.4s ease; */
 }
 
