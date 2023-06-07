@@ -1,9 +1,10 @@
 import React from 'react'
 import "./hero.css";
 import Header from '../Header/Header';
+import heroimg from "../../assets/img/beu.jpg"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 
   
@@ -72,18 +73,25 @@ const Hero = () => {
       <div className="right-h" >
 
         <button className='btn'>join now</button>
-        <i className='fa fab-heart'></i>
+        {/* <i className='fa fab-heart'></i> */}
         {/* <FontAwesomeIcon icon={["fal", "coffee"]} /> */}
-         <FontAwesomeIcon icon="check-square" />
-         <FontAwesomeIcon icon="coffee" />  
+         {/* <FontAwesomeIcon icon="check-square" />
+         <FontAwesomeIcon icon="coffee" />   */}
 
         <span>rate of beauty</span>
 
+        
+      <div className="imghero">
+        <img src={heroimg} alt="heroimg"  className='heroimg'/>
       </div>
+
+      </div>
+
 
       
 
     </div>
+
   )
 }
 

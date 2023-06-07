@@ -5,6 +5,7 @@
     --sec2nd-main-color-drb-light: #0d16197a; 
     --thir-color-pk: rgb(255, 212, 233);
     --f4-color-lo: rgb(255, 182, 126);
+    --backg:linear-gradient(210deg, rgb(249, 122, 24) 1%, rgb(237, 65, 151) 97%);
 }
 
 .headerr{
@@ -21,13 +22,15 @@
     -o-border-radius: 2rem;
 }
 .logo{
-      width: 2.5rem;
-      height: 2.5rem;
-      border-radius:50rem ;
-      -webkit-border-radius:50rem ;
-      -moz-border-radius:50rem ;
-      -ms-border-radius:50rem ;
-      -o-border-radius:50rem ;
+            width: 4rem;
+            height: 4rem;
+            border-radius:50rem ;
+            -webkit-border-radius:50rem ;
+            -moz-border-radius:50rem ;
+            -ms-border-radius:50rem ;
+            -o-border-radius:50rem ;
+            -webkit-filter: brightness(0.6)contrast(3.4)hue-rotate(307deg)saturate(9.9);
+            filter: brightness(0.6)contrast(3.4)hue-rotate(307deg)saturate(9.9);
 }
 .hreader-menu{
     list-style: none;

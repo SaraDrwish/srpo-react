@@ -1,0 +1,97 @@
+:root {
+    --main-color-og: rgb(249, 122, 24);
+    --sec-color-drb: #e2eff39c;
+    --sec2nd-main-color-drb: #0d1619;
+    --sec2nd-main-color-drb-light: #0d16197a;
+    --thir-color-pk: rgb(255, 212, 233);
+    --f4-color-lo: rgb(255, 182, 126);
+    --f5-color-lb: #b7d8e3;
+    --s6-color-dp: rgb(78, 37, 56);
+    /* --s8-color-pp:rgb(219, 47, 133) ; */
+    --s7-color-pp: rgb(237, 65, 151);
+    --plen-colors: linear-gradient(210deg , rgb(249, 122, 24) 1%, rgb(237, 65, 151) 97%);
+    --background-color:linear-gradient(210deg, rgba(240, 145, 73, 0.973) 1%, rgba(246, 126, 186, 0.934) 97%); ;
+}
+.Programmes{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* justify-content: space-around; */
+    padding: 0 2rem;
+}
+.Programmes .prog-header{
+    display: flex;
+    gap: 8rem;
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--main-color-og);
+    justify-content: center;
+    background-color: var(--sec2nd-main-color-drb-light);
+    text-transform: uppercase;
+}
+.Programmes .prog-catg{
+    display: flex;
+    gap: 1rem;
+}
+.Programmes .prog-catg .catago{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--f4-color-lo);
+    color: var(--s7-color-pp);
+    gap: 2rem;
+    padding: 1.5rem;
+    border-radius: 4rem 1rem 3rem 2rem ;
+    -webkit-border-radius: 4rem 1rem 3rem 2rem ;
+    -moz-border-radius: 4rem 1rem 3rem 2rem ;
+    -ms-border-radius: 4rem 1rem 3rem 2rem ;
+    -o-border-radius: 4rem 1rem 3rem 2rem ;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+.Programmes .prog-catg .catago>:nth-child(1){
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: var(--main-color-og);
+ 
+}
+.Programmes .prog-catg .catago>:nth-child(2) {
+   color: var(--s6-color-dp);
+   font-size: 2rem;
+   font-weight: bold;
+}
+.Programmes .prog-catg .catago>:nth-child(3) {
+  font-size: 0.8rem;
+  line-height: 22px;
+}
+
+.Programmes .prog-catg .catago .join-nw{
+color: var(--sec2nd-main-color-drb);
+display: flex;
+align-items: center;
+gap: 8rem;
+}
+.Programmes .prog-catg .catago .join-nw>img{
+width: 1.5rem;
+}
+
+.Programmes .prog-catg .catago:hover{
+    /* background-color: var(--plen-colors); */
+    background: linear-gradient(rgb(249, 122, 24), rgb(237, 65, 151));
+        /* background-color: var(--sec-color-drb); */
+    cursor: pointer;
+    /* color: var(--s7-color-pp); */
+    color: var(--sec2nd-main-color-drb);
+}
+/* 
+i{
+    color: var(--main-color-og);
+}
+.Programmes .prog-catg .icon{
+color: var(--main-color-og);
+} */
+
+

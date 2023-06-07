@@ -9,6 +9,7 @@
     /* --s8-color-pp:rgb(219, 47, 133) ; */
     --s7-color-pp: rgb(237, 65, 151);
     --plen-colors: linear-gradient(210deg, rgb(249, 122, 24) 1.15%, rgb(237, 65, 151) 97%);
+    --ba:linear-gradient(210deg, rgba(255, 163, 93, 0.9rgb(255, 153, 204)40, 103) 97%);
 }
 
 .hero{
@@ -132,20 +133,85 @@ width: 09rem;
     flex: 1;
     position: relative;
     background-color: var(--main-color-og);
+    border-radius: 0 0 0 4rem;
+    -webkit-border-radius: 0 0 0 4rem;
+    -moz-border-radius: 0 0 0 4rem;
+    -ms-border-radius: 0 0 0 4rem;
+    -o-border-radius: 0 0 0 4rem;
 }
 
 .right-h>.btn{
     position: absolute;
     right: 3rem;
     top:2rem;
-    padding: 0.4rem 0.7rem;
+    padding: 0.4rem 1.1rem;
     background-color: var(--sec2nd-main-color-drb);
     color: var(--f5-color-lb);
     text-transform: capitalize;
 }
 
-
-
+.right-h>span{
+    padding: 3rem;
+    background-color: var(--thir-color-pk);
+    /* background-color: var(--ba); */
+    /* background-color: linear-gradient(lightpink, orange, lightblue); */
+    width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    text-align: center;
+    position: absolute;
+    right: 6rem;
+    top: 9rem;
+    text-transform: uppercase;
+    color: var(--s7-color-pp);
+    font-weight: bold;
+}
+.right-h>span::after{
+    content: "";
+    position: absolute;
+    top: 11rem;
+    right: 5rem;
+    width: 3rem;
+    height:3rem;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    background-color: var(--f5-color-lb);
+}
+.right-h>span::before {
+    content: "";
+    position: absolute;
+    top: 11rem;
+    right: -4rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    background-color: var(--s6-color-dp);
+}
+.right-h .heroimg{
+            position: absolute;
+            right: 19rem;
+            top: 21rem;
+            width: 19rem;
+            /*height: 11rem;
+            */border-radius: 2rem;
+            -webkit-border-radius: 2rem;
+            -moz-border-radius: 2rem;
+            -ms-border-radius: 2rem;
+            -o-border-radius: 2rem;
+            -webkit-filter: brightness(0.6)contrast(3.4)hue-rotate(380deg)saturate(9.9);
+            filter: brightness(0.6)contrast(3.4)hue-rotate(380deg)saturate(9.9);
+}
 
 
 /* ------------ */
