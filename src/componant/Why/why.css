@@ -12,3 +12,115 @@
     --plen-colors: linear-gradient(210deg, rgb(249, 122, 24) 1.15%, rgb(237, 65, 151) 97%);
 }
 
+.why{
+    padding: 0 2rem;
+    display: flex;
+    gap: 2rem;
+    /* background-color: violet; */
+    margin-bottom: 2rem;
+    color: var(--f5-color-lb);
+}
+
+.left-why {
+    flex: 1 1;
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+        /* //make same hight */
+    grid-auto-rows: 1fr;
+}
+.left-why>img {
+    object-fit: cover;
+}
+.left-why >img:nth-child(1){
+    grid-row: 1/3;
+    /* width: 12rem; */
+    width: 100%;
+    height: 30rem;
+}
+.left-why>img:nth-child(2) {
+     /* width: 12rem; */
+     /* width: auto; */
+        width: 100%;
+     /* grid-row: 1/3; */
+      height:18.95rem;
+     grid-column: 2/4;
+}
+.left-why>img:nth-child(3) {
+     /* width: 14rem; */
+        width: 100%;
+     grid-column: 2/3;
+            height: calc(30rem/3);
+     /* height: 100%; */
+}
+.left-why>img:nth-child(4) {
+    grid-row: 2;
+    grid-column: 3/4;
+     /* width: 10.5rem; */
+        width: 100%;
+        height: calc(30rem/3);
+        /* height: 100%/; */
+}
+/* ------------------------------------------ */
+.right-why{
+    flex: 1 1 ;
+    text-transform: uppercase;
+    gap: 1rem;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0.2rem;
+}
+
+.right-why .whytitleSpan {
+font-size: 3rem;
+font-weight: bold;
+}
+.right-why>span:nth-child(1){
+    font-size: 1rem;
+    color: var(--main-color-og);
+}
+.right-why .list ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--s7-color-pp);
+    font-weight: 500;
+}
+.right-why .list ul li {
+    text-align: left;
+    /* display: block; */
+    /* gap: 3rem; */
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+}
+.right-why .list img{
+        width: 3rem;
+        color: var(--f4-color-lo);
+        fill: var(--f4-color-lo);
+        filter:brightness(0)contrast(0)hue-rotate(0deg)saturate(9.9);
+        -webkit-filter:brightness(0)contrast(0)hue-rotate(0deg)saturate(9.9);
+}
+.partn img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.1rem 1.2rem;
+    border-radius: 11rem;
+    -webkit-border-radius: 11rem;
+    -moz-border-radius: 11rem;
+    -ms-border-radius: 11rem;
+    -o-border-radius: 11rem;
+    filter: grayscale(99%);
+    -webkit-filter: grayscale(99%);
+}
+.right-why span:nth-child(4){
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+/* --------------------------------------------------------------- */
+

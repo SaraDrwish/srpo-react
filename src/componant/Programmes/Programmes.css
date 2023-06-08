@@ -58,7 +58,6 @@
     width: 1.5rem;
     height: 1.5rem;
     fill: var(--main-color-og);
- 
 }
 .Programmes .prog-catg .catago>:nth-child(2) {
    color: var(--s6-color-dp);
@@ -69,7 +68,6 @@
   font-size: 0.8rem;
   line-height: 22px;
 }
-
 .Programmes .prog-catg .catago .join-nw{
 color: var(--sec2nd-main-color-drb);
 display: flex;
@@ -79,7 +77,6 @@ gap: 8rem;
 .Programmes .prog-catg .catago .join-nw>img{
 width: 1.5rem;
 }
-
 .Programmes .prog-catg .catago:hover{
     /* background-color: var(--plen-colors); */
     background: linear-gradient(rgb(249, 122, 24), rgb(237, 65, 151));
@@ -88,12 +85,6 @@ width: 1.5rem;
     /* color: var(--s7-color-pp); */
     color: var(--sec2nd-main-color-drb);
 }
-/* 
-i{
-    color: var(--main-color-og);
-}
-.Programmes .prog-catg .icon{
-color: var(--main-color-og);
-} */
+ 
 
 

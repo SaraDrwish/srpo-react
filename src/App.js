@@ -3,6 +3,7 @@ import Hero from './componant/Hero/Hero';
 import './App.css';
 import Programmes from './componant/Programmes/Programmes';
 import Why from './componant/Why/Why';
+import Plans from './componant/Plans/Plans';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
 
       <Hero />
       <Programmes />
-      <Why/>
+      <Why />
+      <Plans/>
       
    
 

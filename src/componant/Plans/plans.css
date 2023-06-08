@@ -1,0 +1,22 @@
+
+.plans-container{
+
+}
+.plans-container .plans-headr{
+display: flex;
+gap: 2rem;
+color: var(--main-color-og);
+justify-content: space-around;
+text-transform: uppercase;
+}
+.plans-container .plans-headr span{
+gap: 2rem;
+font-size: 3rem;
+font-weight: bold;
+
+}
+.plans-container .plans{
+
+
+}
+
