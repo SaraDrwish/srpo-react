@@ -11,9 +11,11 @@ position: relative;
 .plans-container .plans-headr{
 display: flex;
 gap: 1rem;
+width: 100%;
 color: var(--main-color-og);
 justify-content: space-evenly;
 text-transform: uppercase;
+background-color: var(--sec2nd-main-color-drb-light);
 }
 .plans-container .plans-headr span{
 gap: 2rem;
@@ -55,7 +57,7 @@ text-transform: capitalize;
     text-align: left;
     background: radial-gradient(var(--main-color-og) ,var(--f4-color-lo)   );
     padding: 2rem;
-    width: 15rem;
+    width: 18rem;
     border-radius: 4rem 1rem 4rem 1rem;
     -webkit-border-radius: 4rem 1rem 4rem 1rem;
     -moz-border-radius: 4rem 1rem 4rem 1rem;
@@ -133,3 +135,15 @@ margin: -0.2rem  0 -0.2rem 1rem;
     -webkit-filter: brightness(10)contrast(0)hue-rotate(10deg)saturate(10);
 } */
 
+.blur-plans-1{
+    width: 25rem;
+    height: 25rem;
+    right: 0rem;
+    top: 8rem;
+}
+.blur-plans-2 {
+    width: 16rem;
+    height: 16rem;
+    left: 4rem;
+    top: 11rem;
+}

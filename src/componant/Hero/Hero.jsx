@@ -2,6 +2,7 @@ import React from 'react'
 import "./hero.css";
 import Header from '../Header/Header';
 import heroimg from "../../assets/img/beu.jpg"
+import { motion } from "framer-motion";
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons';
@@ -10,15 +11,24 @@ import heroimg from "../../assets/img/beu.jpg"
   
 
 const Hero = () => {
+  const transition = {type:"spring" , duration:3}
   return (
     <div className='hero'>
+
+      <div className="blur hero-blur"></div>
       
       <div className="left-h">
 
         <Header />
 
         <div className="best">
-          <div  > </div>
+          {/* <div  > </div> */}
+           <motion.div  
+            initial={{ left: "180px" }}
+            whileInView={{ left: "8px" }}
+            transition={ {...transition , type:"tween"}} >
+          </motion.div>
+
           <span> The Best Beauty in the Word </span>
         </div>
 
@@ -77,8 +87,16 @@ const Hero = () => {
         {/* <FontAwesomeIcon icon={["fal", "coffee"]} /> */}
          {/* <FontAwesomeIcon icon="check-square" />
          <FontAwesomeIcon icon="coffee" />   */}
-
-        <span>rate of beauty</span>
+{/* RATE OF BEAUTY */}
+        {/* <span> beauty</span> */}
+        <motion.span
+           initial={{ right: "6rem" }}
+            whileInView={{ right: "8rem" }}
+            transition={ {...transition , type:"tween"}} 
+        
+          className='hero-circ-span'
+        
+        > beauty</motion.span>
 
         
       <div className="imghero">

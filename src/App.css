@@ -15,8 +15,8 @@
     text-align: center;
     display: flex;
     position: relative;
-    background-image: url(./assets/img/r4.jpg);
-    /* background-color: var(--sec2nd-main-color-drb); */
+    /* background-image: url(./assets/img/r4.jpg); */
+    background-color: var(--sec2nd-main-color-drb);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -136,4 +136,17 @@ font-family: Arial, Helvetica, sans-serif;
 ::selection {
   /* color: var(--sec2nd-main-color-drb);   */
   background: rgba(255, 208, 172, 0.45);
+}
+
+.blur{
+     background-color: var(--main-color-og);
+     position:absolute;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     z-index: -11;
+     filter: blur(180px);
+     -webkit-filter: blur(180px);
 }

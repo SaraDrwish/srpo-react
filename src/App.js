@@ -6,6 +6,7 @@ import Why from './componant/Why/Why';
 import Plans from './componant/Plans/Plans';
 import Testi from './componant/Testi/Testi';
 import Join from './componant/Join/Join';
+import Footer from './componant/Footer/Footer';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <Why />
       <Plans />
       <Testi />
-      < Join/>
+      < Join />
+      <Footer/>
       
    
 

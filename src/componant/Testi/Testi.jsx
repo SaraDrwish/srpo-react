@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./tsti.css";
 import { TestiData } from "../data/TestiData"
+import { motion } from 'framer-motion';
 
 
 function Testi() {
@@ -8,7 +9,7 @@ function Testi() {
 
 const [selected, setSelected] = useState(0);
 const testiLen = TestiData.length;
-
+const transition = {type:"spring" , duration:3}
 
   return (
       <div className="testi">
@@ -17,9 +18,17 @@ const testiLen = TestiData.length;
               <span>Testimonials</span>
               <span className='stroke-text'>What they </span>
               <span>about us</span>
-              <span>
+              <motion.span
+                  
+                 key={selected}
+                  initial={{ opacity: 0, x: -100 }}
+                  transition={{ transition, duration: 2 }}
+                  exit={{ opacity: 0, x: 100 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  
+              >
                   {TestiData[selected].review}
-              </span>
+              </motion.span>
               <span>
                   <span style={{ color: "var( --main-color-og)" }}>{TestiData[selected].name} </span>
                    - {TestiData[selected].status}
@@ -28,9 +37,31 @@ const testiLen = TestiData.length;
           </div>
 
           <div className="right-testi">
-              <div></div>
-              <div></div>
-              <img src={TestiData[selected].img} alt="tstimg" />
+              <motion.div
+                  initial={{ opacity: 0, x: -100 }}
+                  transition={{ transition, duration: 2 }}
+                  whileInView={{opacity:1 ,x:0} }
+              ></motion.div>
+
+
+              {/* <div></div> */}
+
+              <motion.div
+                 initial={{ opacity: 0, x: 100 }}
+                  transition={{ transition, duration: 2 }}
+                  whileInView={{opacity:1 ,x:0} }
+              
+              ></motion.div>
+
+              <motion.img
+                  
+                  key={selected}
+                  initial={{ opacity: 0, x: 100 }}
+                  transition={{ transition, duration: 2 }}
+                  exit={{ opacity: 0, x: -100 }}
+                  whileInView={{opacity:1 ,x:0} }
+                  
+                  src={TestiData[selected].img} alt="tstimg" />
 
               <div className="arros">
                   

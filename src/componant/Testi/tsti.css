@@ -7,6 +7,7 @@
     margin-bottom: 5rem;
     text-align: left;
     /* padding: 1rem; */
+    margin-top: 6rem;
 }
 
 
@@ -14,9 +15,9 @@
 display: flex;
 flex: 1rem;
 gap: 1rem;
-padding: 1rem;
+padding: 1rem 3rem;
 flex-direction: column;
-/* background-color:  var(--sec2nd-main-color-drb-light); */
+background-color:  var(--sec2nd-main-color-drb-light);
 text-transform: capitalize;
 }
 .testi .left-tsti >:nth-child(1){
@@ -100,8 +101,8 @@ border-radius: 2rem;
     bottom: 0;
  }
 .arros > svg{
-    /*width: 1.6rem;
-    */font-size: 2rem;
+    width: 4rem;
+    font-size: 5rem;
     fill:rgb(249, 122, 24)  ;
     /*color: linear-gradient(rgb(249, 122, 24), rgb(237, 65, 151));
     */cursor: pointer;

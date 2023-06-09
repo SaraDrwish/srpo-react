@@ -1,20 +1,97 @@
 .join{
     display: flex;
     gap: 1rem;
+    padding: 0 2rem;
 
 }
 
 .left-join{
 flex: 1;
-font-size: 2rem;
+font-size: 3rem;
 color: var(--f4-color-lo);
 text-transform: uppercase;
+font-weight: bold;
+position: relative;
+text-align: left;
 
 }
-
+.join > hr{
+       position: absolute;
+       width: 9rem;
+       height: 0.3rem;
+       background: linear-gradient(rgb(249, 122, 24), rgb(237, 65, 151));
+       border-radius: 20%;
+       -webkit-border-radius: 20%;
+       -moz-border-radius: 20%;
+       -ms-border-radius: 20%;
+       -o-border-radius: 20%;
+       border: none;
+       margin: -18px;
+ 
+}
+.join .left-join span:nth-child(1){
+    /* background-color: antiquewhite; */
+    /* padding: 1rem 0; */
+}
 /* ---------------- */
 
-.right-join{
-flex: 1;
+.right-join {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
 
+.right-join Form{
+    background-color: var(--f4-color-lo);
+    border-radius: 1rem 2rem 1rem 2rem;
+    -webkit-border-radius: 1rem 2rem 1rem 2rem;
+    -moz-border-radius: 1rem 2rem 1rem 2rem;
+    -ms-border-radius: 1rem 2rem 1rem 2rem;
+    -o-border-radius: 1rem 2rem 1rem 2rem;
+    /* width: 70%; */
+    /* margin: auto; */
+    padding: 1.3rem;
+    color: var(--s7-color-pp);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .main0{
+    color: var(--main-color-og);
+} */
+ .right-join Form .emaill{
+      /* width: 70%; */
+    /* padding:  0 2rem 0 0; */
+     /* text-align: left; */
+     font-weight: bold;
+     /* font-size: 0.8rem; */
+     background-color: var(--f4-color-lo);
+    color: var(--s7-color-pp);
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+}
+.right-join form .emaill::placeholder{
+    color: var(--s7-color-pp);
+}
+.right-join Form button{
+    background-color:var(--main-color-og) ;
+    border: none;
+    outline: none;
+    color: var(--sec2nd-main-color-drb);
+        text-transform: capitalize;
+}
+.right-join Form button:hover {
+    border: none;
+    outline: none;
+    /* color: var(--sec2nd-main-color-drb); */
+    color: var(--main-color-og);
+    background-color: var(--sec2nd-main-color-drb);
+}
+.right-join Form button:focus {
+    background-color: var(--main-color-og);
+    border: none;
+    outline: none;
+    color: var(--sec2nd-main-color-drb);
 }

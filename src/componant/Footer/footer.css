@@ -1,0 +1,64 @@
+
+.footer-container{
+display: flex;
+flex-direction: column;
+gap: 4rem;
+}
+.footer-container >hr{
+    border: 2px solid var(--main-color-og);
+}
+.footer-container .footer{
+    padding: 2rem 1rem;
+    display: flex;
+    gap: 6rem;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.footer-container .footer >a svg{
+    text-decoration: none;
+    fill: var(--main-color-og);
+    font-size: 4rem;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+ .footer-container .footer> a svg:hover {
+     fill: var(--thir-color-pk);   
+ }
+ /* img{
+    border-radius: 50% ;
+    -webkit-border-radius: 50% ;
+    -moz-border-radius: 50% ;
+    -ms-border-radius: 50% ;
+    -o-border-radius: 50% ;
+} */
+.logo-f{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--main-color-og);
+    background-color: var(--sec2nd-main-color-drb-light);
+}
+
+.blur-f-1{
+    width: 11rem;
+    height: 11rem;
+    bottom: 0;
+    left: 15%;
+    background: var(--s7-color-pp);
+    filter: blur(151px);
+    -webkit-filter: blur(151px);
+}
+.blur-f-2{
+    width: 20rem;
+    height: 20rem;
+    top:0rem;
+    right:15%;
+    background : var(--thir-color-pk);
+    filter: blur(212px);
+    -webkit-filter: blur(212px);
+}
+

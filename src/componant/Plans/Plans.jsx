@@ -8,6 +8,8 @@ import RightArrow from "../../assets/img/RightArrow.svg"
 function Plans() {
   return (
       <div className="plans-container">
+          <div className="blur blur-plans-1"></div>
+          <div className="blur blur-plans-2"></div>
           
               <div className="plans-headr" style={ {gap:"2rem"} }>
                   <span className='stroke-text'>ready to start</span>

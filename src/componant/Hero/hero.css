@@ -190,7 +190,7 @@ font-weight: bold;
     color: var(--f5-color-lb);
     border: none;
     text-transform: capitalize;
-}
+ }
 .right-h>.btn:hover {
     /* background: linear-gradient( 190deg,  var(--sec2nd-main-color-drb),var(--f5-color-lb));*/ 
         background: linear-gradient( 211deg , var(--sec2nd-main-color-drb), var(--thir-color-pk) );
@@ -208,6 +208,7 @@ font-weight: bold;
     -ms-border-radius: 5rem;
     -o-border-radius: 5rem;
     text-align: center;
+    /* margin: auto; */
     position: absolute;
     right: 6rem;
     top: 9rem;
@@ -286,3 +287,39 @@ font-weight: bold;
 
 
 /* ------------ */
+
+.hero-blur{
+    width: 22rem;
+    height: 22rem;
+    left: 0;
+}
+
+/* ---------------- */
+.right-h > .hero-circ-span{
+/* background-color: aqua; */
+}
+@media (prefers-reduced-motion: no-preference) {
+    .hero-circ-span {
+        animation: hero-circ-span infinite 04s linear;
+        -webkit-animation: hero-circ-span infinite 04s linear;
+}
+}
+
+@keyframes hero-circ-span {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+}
+
+}
+
