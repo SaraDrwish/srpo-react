@@ -74,6 +74,9 @@ display: flex;
 align-items: center;
 gap: 8rem;
 }
+/* .Programmes .prog-catg .catago .join-nw:hover {
+border: none;
+} */
 .Programmes .prog-catg .catago .join-nw>img{
 width: 1.5rem;
 }
@@ -84,7 +87,7 @@ width: 1.5rem;
     cursor: pointer;
     /* color: var(--s7-color-pp); */
     color: var(--sec2nd-main-color-drb);
-}
+ }
  
 
 

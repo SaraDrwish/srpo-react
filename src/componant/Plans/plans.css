@@ -1,12 +1,18 @@
 
 .plans-container{
+margin-top: 1rem;
+padding: 1rem;
+display: flex;
+flex-direction: column;
+gap: 4rem;
+position: relative;
 
 }
 .plans-container .plans-headr{
 display: flex;
-gap: 2rem;
+gap: 1rem;
 color: var(--main-color-og);
-justify-content: space-around;
+justify-content: space-evenly;
 text-transform: uppercase;
 }
 .plans-container .plans-headr span{
@@ -16,7 +22,114 @@ font-weight: bold;
 
 }
 .plans-container .plans{
-
-
+display: flex;
+justify-content: space-evenly;
+gap: 2rem;
+font-weight: 500;
+/* font-size: 1rem; */
+/* color: var(--s7-color-pp); */
+text-transform: capitalize;
 }
+.plans-container .plans .plansBox:nth-child(2) {
+    background: radial-gradient(var(--f4-color-lo), var(--thir-color-pk));
+    color: var(--s6-color-dp);
+ fill: var(--s6-color-dp);
+ transform: scale(1.1);
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ -o-transform: scale(1.1);
+}
+.plans-container .plans .plansBox:nth-child(2):hover {
+    background: radial-gradient(var(--f4-color-lo), var(--sec-color-drb));
+    color: var(--thir-color-pk);
+    fill: var(--thir-color-pk);
+}
+.plans-container .plans .plansBox{
+    display: flex;
+    flex-direction: column;
+    color: var(--sec-color-drb);
+    fill:var(--sec-color-drb) ;
+    gap: 0.99rem;
+    align-items: start;  
+    text-align: left;
+    background: radial-gradient(var(--main-color-og) ,var(--f4-color-lo)   );
+    padding: 2rem;
+    width: 15rem;
+    border-radius: 4rem 1rem 4rem 1rem;
+    -webkit-border-radius: 4rem 1rem 4rem 1rem;
+    -moz-border-radius: 4rem 1rem 4rem 1rem;
+    -ms-border-radius: 4rem 1rem 4rem 1rem;
+    -o-border-radius: 4rem 1rem 4rem 1rem;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;    
+}
+.plans-container .plans .plansBox:hover{
+    background: radial-gradient(var(--s7-color-pp), var(--main-color-og));
+    color: var(--s6-color-dp);
+    fill: var(--s6-color-dp);
+}
+.plans-container .plans .plansBox > span:nth-child(2){
+  /* color: var(--main-color-og); */
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.plans-container .plans .plansBox > span:nth-child(5) {
+    /* color: var(--main-color-og); */
+    font-size: 0.8rem;
+ }
+.plans-container .plans .plansBox>span:nth-child(3) ,.plans-container .plans .plansBox>svg:nth-child(1)  {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.plans-container .plans .plansBox>svg:nth-child(1){
+    fill: var(--s7-color-pp);
+}
+.plans-container .plans .plansBox button{
+    color: var(--s7-color-pp);
+    border: none;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+    padding: 0.6rem;
+    background-color: var(--sec-color-drb);
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+}
+.plans-container .plans .plansBox button:hover {
+    background-color: var(--thir-color-pk);
+}
+.featuers .feat{
+    display: flex;
+     gap: 0.6rem;
+}
+ .iconsvgarro{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0.4rem 0;
+ }
+  .iconsvgarro > svg{
+    padding-left: 1rem;
+  }
+/* .icon{
+margin: -0.2rem  0 -0.2rem 1rem;
+    width: 0.7rem;
+    fill: var(--f4-color-lo);
+    color: var(--f4-color-lo);
+    filter: brightness(10)contrast(0)hue-rotate(10deg)saturate(10);
+    -webkit-filter: brightness(10)contrast(0)hue-rotate(10deg)saturate(10);
+} */
 

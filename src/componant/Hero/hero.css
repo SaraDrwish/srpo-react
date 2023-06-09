@@ -158,6 +158,7 @@ font-weight: bold;
     width: 09rem;
     font-weight: bold;
     border: 3px solid var(--main-color-og);
+    /* border: none; */
 }
 
 .hero-text > div:nth-child(2) span{

@@ -1,23 +1,13 @@
-:root {
-    --main-color-og: rgb(249, 122, 24);
-    --sec-color-drb: #e2eff39c;
-    --sec2nd-main-color-drb: #0d1619;
-    --sec2nd-main-color-drb-light: #0d16197a;
-    --thir-color-pk: rgb(255, 212, 233);
-    --f4-color-lo: rgb(255, 182, 126);
-    --f5-color-lb: #b7d8e3;
-    --s6-color-dp: rgb(78, 37, 56);
-    /* --s8-color-pp:rgb(219, 47, 133) ; */
-    --s7-color-pp: rgb(237, 65, 151);
-    --plen-colors: linear-gradient(210deg, rgb(249, 122, 24) 1.15%, rgb(237, 65, 151) 97%);
-}
+
+
 
 .why{
+    margin-top: 6rem;
     padding: 0 2rem;
     display: flex;
     gap: 2rem;
     /* background-color: violet; */
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: var(--f5-color-lb);
 }
 

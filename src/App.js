@@ -4,6 +4,8 @@ import './App.css';
 import Programmes from './componant/Programmes/Programmes';
 import Why from './componant/Why/Why';
 import Plans from './componant/Plans/Plans';
+import Testi from './componant/Testi/Testi';
+import Join from './componant/Join/Join';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Hero />
       <Programmes />
       <Why />
-      <Plans/>
+      <Plans />
+      <Testi />
+      < Join/>
       
    
 

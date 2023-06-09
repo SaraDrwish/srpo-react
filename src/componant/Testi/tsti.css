@@ -1,0 +1,119 @@
+.testi{
+    display: flex;
+   gap: 1rem;
+       /* color: var(--main-color-og); */
+    font-size:1.2rem;
+    /* background-color:var(--sec2nd-main-color-drb); */
+    margin-bottom: 5rem;
+    text-align: left;
+    /* padding: 1rem; */
+}
+
+
+.left-tsti{
+display: flex;
+flex: 1rem;
+gap: 1rem;
+padding: 1rem;
+flex-direction: column;
+/* background-color:  var(--sec2nd-main-color-drb-light); */
+text-transform: capitalize;
+}
+.testi .left-tsti >:nth-child(1){
+    font-size: 1.2rem;
+    /* color: var(--thir-color-pk); */
+    color: var(--f4-color-lo);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.testi .left-tsti>:nth-child(3)  {
+    font-size: 3rem;
+    color: var(--f4-color-lo);
+    text-transform: uppercase;
+}
+.testi .stroke-text {
+     -webkit-text-stroke-color: var(--thir-color-pk);
+    /* -webkit-text-stroke-width: 1.5px; */
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.testi .left-tsti>:nth-child(5) , .testi .left-tsti>:nth-child(4){
+    color: var(--s7-color-pp);
+    text-align: justify;
+    line-height: 3rem;
+}
+
+
+/* ------------------------------------------- */
+
+
+
+.right-testi{
+    flex: 1;
+    position: relative;
+    padding: 1rem;
+}
+
+.right-testi > img{
+    position: absolute;
+    right: 9rem;
+    top: 2rem;
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.right-testi>:nth-child(1){
+position: absolute;
+border: 3px solid var(--main-color-og);
+width: 20rem;
+height: 20rem;
+right:10rem;
+top: 1rem;
+border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.right-testi>:nth-child(2) {
+    position: absolute;
+    background: linear-gradient(rgb(249, 122, 24), rgb(237, 65, 151));
+    width: 20rem;
+    height: 20rem;
+    right: 7rem;
+     top: 5rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+.arros{
+    position: absolute;
+    bottom: 0;
+ }
+.arros > svg{
+    /*width: 1.6rem;
+    */font-size: 2rem;
+    fill:rgb(249, 122, 24)  ;
+    /*color: linear-gradient(rgb(249, 122, 24), rgb(237, 65, 151));
+    */cursor: pointer;
+    transition: all 0.4s ease;
+    padding: 1rem;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+.arros>svg:hover {
+ 
+    fill: rgb(237, 65, 151) ;
+  
+}
