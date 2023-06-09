@@ -19,7 +19,10 @@ function App() {
       <Plans />
       <Testi />
       < Join />
-      <Footer/>
+      <Footer />
+      
+  
+
       
    
 
