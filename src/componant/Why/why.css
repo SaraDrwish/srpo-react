@@ -114,3 +114,90 @@ font-weight: bold;
 
 /* --------------------------------------------------------------- */
 
+
+
+/* -----------------------------------------------------------------------------------------------------
+--------------------------------------MEDIA----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:768px) {
+
+.why{
+    flex-direction: column;
+    font-size: small;
+    font-weight: 300;
+}
+.left-why , .right-why , img {
+    font-size: small;
+    font-weight: 300;
+}
+.left-why{
+    grid-auto-rows: auto;
+    overflow: hidden;
+    gap: 0.4rem;
+}
+.left-why>img{
+    /* gap: 0.4rem; */
+}
+.left-why>img:nth-child(1) {
+     width:7rem;
+    height: 17.4rem;
+}
+.left-why>img:nth-child(2) {
+     /* width: 22rem; */
+     width:15rem;
+    height: 9rem;
+}
+.left-why>img:nth-child(3) {
+  
+    /* height: 9.5rem; */
+    width: 8.4rem;
+    height: 8rem;
+}
+.left-why>img:nth-child(4) {
+  display: none;
+}
+
+
+.right-why span  {
+    line-height: 2rem;
+   font-size: x-large;
+   font-weight: lighter;
+  
+}
+.right-why .whytitleSpan{
+    font-size: small;
+}
+.right-why ul {
+    font-size:small;
+    font-weight: lighter;
+      padding: 0;
+     width: 100%;
+     line-height: 2rem;
+}
+.right-why li {
+    font-size: small;
+    font-weight: lighter;
+}
+.right-why img{
+    font-size: small;
+    font-weight: lighter;
+    width: 1.2rem;
+    height: 1.3rem;
+}
+.right-why .list img {
+    width: 1.3rem;
+}
+.right-why .list{
+    text-transform: capitalize;
+    /* font-size: 1rem; */
+    /* font-weight: lighter; */
+}
+.right-why span:nth-child(4) {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+
+}

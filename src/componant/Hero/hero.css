@@ -314,12 +314,82 @@ font-weight: bold;
         -o-transform: rotate(0deg);
 }
     to {
-        transform: rotate(360deg);
-        -webkit-transform: rotateY(360deg);
-        -moz-transform: rotateY(360deg);
-        -ms-transform: rotateY(360deg);
-        -o-transform: rotateY(360deg);
+        transform: rotate(80deg);
+        -webkit-transform: rotate(80deg);
+        -moz-transform: rotate(80deg);
+        -ms-transform: rotate(80deg);
+        -o-transform: rotate(80deg);
 }
 
 }
 
+
+
+/* -----------------------------------------------------------------------------------------------------
+--------------------------------------MEDIA----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:768px) {
+
+
+.hero{
+    flex-direction: column;
+}
+.hero-blur{
+    width: 11rem;
+}
+.best{
+    font-size: small;
+    margin: 2%;
+    align-self: center;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+}
+
+.hero-text{
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* line-height: 4px; */
+    font-weight: 400;
+}
+.hero-text > div:nth-of-type(3){
+    font-size: small;
+    align-items: center;
+     font-weight: 400;
+}
+.figers>div > span:nth-of-type(1){
+font-size: large;
+ }
+.figers>div>span:nth-of-type(2) {
+    font-size: small;
+}
+.right-h{
+    position: relative;
+    background: none;
+}
+.hero-btn>button {
+    font-size: small;
+}
+/* .heroimg{
+    position: relative;
+    align-self: center;
+    width: 4rem;
+    height: 4rem;
+    top: 4rem;
+    left: 2rem;
+} */
+
+.right-h>span::after , .right-h>span::before , .right-h>span , .right-h>.btn{
+    display: none;
+}
+
+
+
+
+    
+}

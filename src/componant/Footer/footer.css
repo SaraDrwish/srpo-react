@@ -62,3 +62,39 @@ gap: 4rem;
     -webkit-filter: blur(212px);
 }
 
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------------------------------------
+--------------------------------------MEDIA----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:768px) {
+
+
+
+.footer-container {
+
+    gap: 1rem;
+}
+.footer-container>hr {
+    border: 1px solid var(--main-color-og);
+}
+.footer-container .footer {
+    padding:1rem;
+    gap: 2rem;
+}
+.footer-container .footer>a svg {
+    font-size: 2rem;
+}
+
+
+
+}

@@ -11,7 +11,11 @@ import { motion } from "framer-motion";
   
 
 const Hero = () => {
-  const transition = {type:"spring" , duration:3}
+
+  const mobile = window.innerWidth <= 768 ? true : false;
+
+  const transition = { type: "spring", duration: 3 }
+  
   return (
     <div className='hero'>
 
@@ -24,7 +28,7 @@ const Hero = () => {
         <div className="best">
           {/* <div  > </div> */}
            <motion.div  
-            initial={{ left: "180px" }}
+            initial={{ left: mobile? "95px" :"180px" }}
             whileInView={{ left: "8px" }}
             transition={ {...transition , type:"tween"}} >
           </motion.div>
@@ -96,7 +100,10 @@ const Hero = () => {
         
           className='hero-circ-span'
         
-        > beauty</motion.span>
+        >
+          {/* beauty */}
+        
+        </motion.span>
 
         
       <div className="imghero">

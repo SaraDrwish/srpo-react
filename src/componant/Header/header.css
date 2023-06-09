@@ -75,3 +75,44 @@
     color: var(--sec-color-drb);
 }
 
+
+/* -----------------------------------------------------------------------------------------------------
+--------------------------------------MEDIA----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:768px) {
+
+.headerr{
+    font-size: small;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+ }
+.headerr> img {
+    font-size: small;
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-right: 4%;
+}
+.headerr ul{
+    font-size: small;
+    padding: 0;
+    margin: 0;
+}
+.headerr li{
+    font-size: small;
+    padding: 1%;
+    margin: 0;
+ }
+.hreader-menu{
+    padding: 0;
+    margin: 0;
+    gap: 1%;
+}
+.hreader-menu>li::after {
+    display: none;
+}
+
+
+
+}

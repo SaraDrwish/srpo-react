@@ -21,7 +21,6 @@ background-color: var(--sec2nd-main-color-drb-light);
 gap: 2rem;
 font-size: 3rem;
 font-weight: bold;
-
 }
 .plans-container .plans{
 display: flex;
@@ -41,6 +40,7 @@ text-transform: capitalize;
  -moz-transform: scale(1.1);
  -ms-transform: scale(1.1);
  -o-transform: scale(1.1);
+
 }
 .plans-container .plans .plansBox:nth-child(2):hover {
     background: radial-gradient(var(--f4-color-lo), var(--sec-color-drb));
@@ -147,3 +147,47 @@ margin: -0.2rem  0 -0.2rem 1rem;
     left: 4rem;
     top: 11rem;
 }
+
+
+
+/* -----------------------------------------------------------------------------------------------------
+--------------------------------------MEDIA----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:768px) {
+
+
+.plans{
+    flex-direction: column;
+ }
+ .plans-container .plans .plansBox{
+    width: 88%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    margin: auto;
+ }
+.plans-container .plans .plansBox:nth-child(2) {
+    transform:none;
+    -webkit-transform:none;
+    -moz-transform:none;
+    -ms-transform:none;
+    -o-transform:none;
+}
+.plans-container {
+    margin-top: 0rem;
+    padding: 0rem;
+    gap: 1rem;
+}
+.plans-container .plans-headr span {
+    padding: 0 .4rem;
+    gap: 1rem;
+    font-size: 1rem;
+        /* font-size: 1.2rem; */
+    font-weight: 100;
+}
+ 
+
+
+}
+
