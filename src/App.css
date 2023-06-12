@@ -15,7 +15,7 @@
     text-align: center;
     display: flex;
     position: relative;
-    /* background-image: url(./assets/img/r4.jpg); */
+    background-image: url(./assets/img/r4.jpg);
     background-color: var(--sec2nd-main-color-drb);
     background-repeat: no-repeat;
     background-position: center;
