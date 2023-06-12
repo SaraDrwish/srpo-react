@@ -3,6 +3,7 @@
 display: flex;
 flex-direction: column;
 gap: 4rem;
+position: relative;
 }
 .footer-container >hr{
     border: 2px solid var(--main-color-og);
@@ -43,21 +44,22 @@ gap: 4rem;
     background-color: var(--sec2nd-main-color-drb-light);
 }
 
-.blur-f-1{
-    width: 11rem;
-    height: 11rem;
-    bottom: 0;
+.footer-container .blur-f-1{
+    width: 22rem;
+    height: 22rem;
+    bottom: 1%;
     left: 15%;
-    background: var(--s7-color-pp);
-    filter: blur(151px);
-    -webkit-filter: blur(151px);
+    background: var(--sec-color-drb);
+    filter: blur(88px);
+    -webkit-filter: blur(111px);
 }
-.blur-f-2{
+
+.footer-container .blur-f-2{
     width: 20rem;
     height: 20rem;
-    top:0rem;
+    top:1rem;
     right:15%;
-    background : var(--thir-color-pk);
+    background : var(--s7-color-pp);
     filter: blur(212px);
     -webkit-filter: blur(212px);
 }
