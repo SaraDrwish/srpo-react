@@ -330,6 +330,7 @@ font-weight: bold;
     fill:var(--main-color-og) ;
     position: fixed;
     bottom: 4%;
+    z-index: 111;
     /* right: -4%;*/
      right:4%;
     transition:all .4s ease-out ;
